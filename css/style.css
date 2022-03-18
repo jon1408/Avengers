@@ -16,10 +16,9 @@
   body {
     background-color: gray;
   }
-
   header {
     min-height: 10vh;
-    background-color: #1b1b1b;
+    background: linear-gradient(to bottom, #000000, #434343);
     padding: 1.3rem 0rem;
     position: fixed;
     width: 100%;
@@ -77,9 +76,103 @@
     margin-left: 10px;
     cursor: pointer;
   }
+
   .botao:hover{
     background-color: red;
+    color: #fff;
   }
+  .main{
+    min-height: 100vh;
+    background-color: red;
+    /*background: url(../img/banner.png) no-repeat center 115px fixed;*/
+    background-size: cover;
+  }
+  
+  /*.container {
+    padding-top: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    color: white;
+  }*/
+
+  .container img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .info {
+    width: 40%;
+  }
+  .info h1 {
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 20px;
+  }
+  
+  .info p {
+    line-height: 2rem;
+  }
+  
+  blockquote {
+      font-family: Georgia, serif;
+      position: relative;
+      margin: 0.5em;
+      padding: 0.5em 2em 0.5em 3em;
+      color: #fff;
+      text-align: right;
+  }
+  
+  blockquote:before {
+      font-family: Georgia, serif;
+      position: absolute;
+      font-size: 4em;
+      line-height: 1;
+      top: 0;
+      left: 0;
+      content: "\201C";
+  }
+  blockquote:after {
+      font-family: Georgia, serif;
+      position: absolute;
+      float:right;
+      font-size:4em;
+      line-height: 1;
+      right:0;
+      bottom:-0.5em;
+      content: "\201D";
+  }
+  
+  
+  
+  
+  /*#bio {
+    background: url('https://res.cloudinary.com/codier/image/upload/v1610554675/ck7p6ahhuriv9n9wajxb.jpg')no-repeat center center fixed;
+    background-size: cover;
+    
+  }
+  
+  .container-bio {
+    padding-top: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    color: white;
+    padding-right: 30px;
+  }
+  
+  .container-bio .info {
+    border-radius: 25px;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.2); 
+    -webkit-backdrop-filter: blur(8px); 
+    backdrop-filter: blur(8px);
+  }
+  
   footer {
     height: 100px;
     background-color: #1b1b1b;
@@ -94,22 +187,4 @@
   footer h3 a {
       text-decoration: none;
       color: white;
-  }
-
-  .hamburger {
-    display: none;
-}
-
-  .bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #101010;
-}
-
-@media only screen and (max-width: 768px) {
-  
-}
+  }*/
